@@ -3,7 +3,10 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = 'mypackage'
-version = '0.1.0'
-description = 'EDSA example of python package'
-dependencies = []
+name = "mypackage"
+version = "0.1.0"
+description = "EDSA example of python package"
+dependencies = ["numpy"]
+
+[tool.setuptools]
+packages = ["find:"]
