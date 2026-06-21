@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: mypackage
+Version: 0.1
+Summary: EDSA example of python package
+Home-page: https://github.com/<username>/<package-name>
+Author: <author-name>
+Author-email: <author-email>
+License: MIT
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# mypackage
+This was created to test the function to return the top n items in a list.
